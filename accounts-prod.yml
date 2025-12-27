@@ -5,7 +5,8 @@ accounts: # accounts is prefix - can be anything. we will use this in third meth
   message: "Welcome to EazyBank accounts related prod APIs"
   contactDetails:
     name: "Reine Aishwarya - Product Owner"
-    email: "aishwarya@eazybank.com"
+    email: "{cipher}35a1f2cccec24dc948d4d129704d9ce5f63548c388cc0c99fa91255d22a76cc22af55212d59e94ae89fc826a98bdebca"
   onCallSupport:
     -(453)392-4829
+
     -(236)203-0384
