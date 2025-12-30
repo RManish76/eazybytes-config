@@ -1,0 +1,10 @@
+server:
+  port: 8070
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetchRegistry: false #to not fetch registry from other reigstry service(we also do not have other registry). By default true.
+    registerWithEureka: false #to not registr it self on the registry. Mean we don't want the current registry expose itself on it's own registry. By default true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/  #where the eureka server is going to expose its functionality and other MS to register & discover the details
